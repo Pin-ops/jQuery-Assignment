@@ -1,49 +1,53 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
     <link href="styles.css" rel="stylesheet" />
     <title>LiveCoding jQuery Assignment</title>
-  </head>
-  <body>
-  	<div id="wrapper" >
-	    <header>
-	    	<div id="page-banner">
-	    		<h1 class="title">LiveCoding Topics</h1>
-          <p>Topics for coders</p>
-          <form id="search-topics">
-            <input type="text" placeholder="Search topics..." />
-          </form>
-	    	</div>
-	    </header>
-	    <div id="topic-list">
-	    	<h2 class="title">Topics to Cover</h2>
-	    	<ul>
-	    		<li>
-	    			<span class="name">JavaScript Essentials 1</span>
-	    			<span class="delete">delete</span>
-	    		</li>
-	    		<li>
-	    			<span class="name">JavaScript Essentials 2</span>
-	    			<span class="delete">delete</span>
-	    		</li>
-	    		<li>
-	    			<span class="name">jQuery Essentials</span>
-	    			<span class="delete">delete</span>
-	    		</li>
-	    		<li>
-	    			<span class="name">React Essentials</span>
-	    			<span class="delete">delete</span>
-	    		</li>
-	    	</ul>
-	    </div>
-	    <form id="add-topic">
-			<input type="checkbox" id="hide" />
-			<label for="hide"> Hide all topics </label>
-	    	<input type="text" placeholder="Add a topic..." />
-	    	<button>Add</button>
-	    </form>
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            <div id="page-banner">
+                <h1 class="title">LiveCoding Topics</h1>
+                <p>Topics for coders</p>
+                <form id="search-topics">
+                    <input type="text" placeholder="Search topics..." />
+                </form>
+            </div>
+        </header>
+        <div id="topic-list">
+            <h2 class="title">Topics to Cover</h2>
+            <ul>
+                <li>
+                    <span class="name">JavaScript Essentials 1</span>
+                    <span class="delete">delete</span>
+                </li>
+                <li>
+                    <span class="name">JavaScript Essentials 2</span>
+                    <span class="delete">delete</span>
+                </li>
+                <li>
+                    <span class="name">jQuery Essentials</span>
+                    <span class="delete">delete</span>
+                </li>
+                <li>
+                    <span class="name">React Essentials</span>
+                    <span class="delete">delete</span>
+                </li>
+            </ul>
+        </div>
+        <form id="add-topic">
+            <input type="checkbox" id="hide" />
+            <label for="hide"> Hide all topics </label>
+            <input id="add-list" type="text" placeholder="Add a topic..." />
+            <button>Add</button>
+        </form>
     </div>
-	<script src="app.js"></script>
-  </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
 </html>
